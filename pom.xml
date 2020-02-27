@@ -83,13 +83,6 @@
                             <port>80</port>
                             <maxIdleTime>60000</maxIdleTime>
                         </connector>
-                        <connector implementation="org.mortbay.jetty.security.SslSocketConnector">
-                            <port>443</port>
-                            <maxIdleTime>60000</maxIdleTime>
-                            <keystore>/Users/seattle/dev/tomcat.keystore.old</keystore>
-                            <password>123456</password>
-                            <keyPassword>123456</keyPassword>
-                        </connector>
                     </connectors>
                 </configuration>
             </plugin>
